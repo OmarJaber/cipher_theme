@@ -7,11 +7,19 @@ app_description = "Theme"
 app_email = "omar.ja93@gmail.com"
 app_license = "MIT"
 
+app_logo_url = '/assets/theme/images/app_logo.png'
+
+website_context = {
+	"favicon": "/assets/theme/images/icon.png",
+	"splash_image": "/assets/theme/images/app_logo.png"
+}
+
+
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/theme/css/theme.css"
+app_include_css = "/assets/theme/css/custom.css"
 # app_include_js = "/assets/theme/js/theme.js"
 
 # include js, css files in header of web template

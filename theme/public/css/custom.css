@@ -1,0 +1,34 @@
+.page-container {
+  background-image: url("/assets/theme/images/background_container.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.page-head {
+  background-image: url("/assets/theme/images/background_head.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #f3f2ff!important;
+}
+
+[data-page-route=Workspaces] .codex-editor .codex-editor__redactor .ce-block .ce-header b{
+  color: #7814EA;
+}
+
+.ellipsis, .awesomplete>ul>li, .widget.shortcut-widget-box .indicator-pill{
+  color: #702386;
+}
+
+.widget.links-widget-box .link-item .link-content{
+  color: #00AEA4;
+}
+
+.btn.btn-primary, div#driver-popover-item .driver-popover-footer button.btn-primary, div#driver-popover-item .driver-popover-footer button.driver-next-btn{
+      background-color: #7814EA;
+    --icon-fill-bg: #7814EA;
+}
